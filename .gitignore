@@ -1,0 +1,22 @@
+# --- Python 編譯與暫存檔 (必須包含) ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- 虛擬環境 (必須包含) ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- 環境變數與敏感資料 (強烈建議) ---
+.env
+.env.local
+
+# --- 作業系統產生的檔案 (建議) ---
+.DS_Store
+Thumbs.db
+
+# --- IDE 設定檔 (視情況選用) ---
+.vscode/
+.idea/
